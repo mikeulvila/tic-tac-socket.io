@@ -3,9 +3,29 @@ html
   head
     title Tic-Tac-Socket.io
     link(rel='stylesheet', href='/vendor/bootstrap/dist/css/bootstrap.min.css')
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
     link(rel='stylesheet', href='/css/style.css')
   body
-    h1 TIC TAC TOE
+    .container
+        .row
+          .col-md-12
+            h1 TIC TAC TOE
+        .row
+          div(id='box1' class='col-md-1 text-center box')
+          div(id='box2' class='col-md-1 text-center box')
+          div(id='box3' class='col-md-1 text-center box')
+        .row
+          div(id='box4' class='col-md-1 text-center box')
+          div(id='box5' class='col-md-1 text-center box')
+          div(id='box6' class='col-md-1 text-center box')
+        .row
+          div(id='box7' class='col-md-1 text-center box')
+          div(id='box8' class='col-md-1 text-center box')
+          div(id='box9' class='col-md-1 text-center box')
+
+
+
+
 
     script(src='/vendor/jquery/dist/jquery.min.js')
     script(src='/vendor/bootstrap/dist/js/bootstrap.min.js')

@@ -1,0 +1,42 @@
+.box {
+  padding: 9px 0 0 0;
+  width: 75px;
+  height: 75px;
+  border: 1px solid black;
+}
+.box:hover {
+  transition: .6s;
+  background-color: red;
+}
+
+#box1 {
+  border-top: none;
+  border-left: none;
+}
+#box2 {
+  border-top: none;
+}
+#box3 {
+  border-top: none;
+  border-right: none;
+}
+#box4 {
+  border-left: none;
+}
+#box5 {
+
+}
+#box6 {
+  border-right: none;
+}
+#box7 {
+  border-bottom: none;
+  border-left: none;
+}
+#box8 {
+  border-bottom: none;
+}
+#box9 {
+  border-bottom: none;
+  border-right: none;
+}
