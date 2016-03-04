@@ -8,9 +8,15 @@
     console.log('client socket connected')
   });
 
+  let playerMoves = 0;
+
   $(".box").click(function () {
-    console.log($(this));
-    $(this).append( "<i class='fa fa-times fa-4x'></i>" );
+    if ($(this).find('i').length === 0) {
+      console.log('no child, add that x dog');
+      $(this).append( "<i class='fa fa-times fa-4x'></i>" );
+    } else {
+      console.log('already has a child bitch');
+    }
   });
 
 
