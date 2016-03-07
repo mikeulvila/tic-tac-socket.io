@@ -23,7 +23,15 @@ server.listen(PORT, () => {
 
 io.on('connection', (socket) => {
   console.log('server socket connection', socket.id);
-})
+
+  socket.on('player move', function(id) {
+    socket.emit('send mark', id);
+
+  });
+
+
+});
+
 // db.connect((err) => {
 //   if (err) throw err
 // });
